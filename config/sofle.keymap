@@ -65,6 +65,7 @@
 / {
     chosen {
         zmk,underglow = &led_strip;
+        zmk,studio-rpc-usb-uart = &usb_serial;
     };
 };
 
